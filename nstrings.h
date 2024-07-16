@@ -177,7 +177,7 @@ Input(char* buf, size_t max)
 
 
 
-void static
+static void
 _Print(int fd, string fmt, va_list args)
 {
 	// TODO: Buffer this like libc does for printf. Switch to fwrite?
