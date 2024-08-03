@@ -8,6 +8,7 @@
  * Potential TODOs:
  *   - Support unicode and utf8 runes.
  *   - Use a context struct for printing for gaining formatting accross multiple lines.
+ *   - Maybe add a boolean field to struct string to indicate if the string is null terminated.
  */
 
 #ifndef _NSTRINGS_H_
